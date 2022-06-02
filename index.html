@@ -27,17 +27,42 @@
         </nav>
     </header>
 
-    <main>
+    <main class="m-5 p-5">
+        <div class="dpbtns justify-content-center">
+            <div class="m-3">
+                <select name="lng" id="lng">
+                    <option value="" selected="selected">Language</option>
+                </select>
+            </div>
+            <br><br>
+            <div class=" m-3">
+                <select name="tpc" id="tpc">
+                    <option value="" selected="selected">Topic</option>
+                </select>
+            </div>
+            <br><br>
+            <div class="m-3">
+                <select name="lrn" id="lrn">
+                    <option value="" selected="selected">Learn</option>
+                </select>
+            </div>
+        </div>
+        <div class="m-5 p-5">
+            <div class="p-5">
+                <button onclick="showInfo()" id="buttonShadow" type="button"
+                    class="buttonPosition btn btn-light btn-lg">Show Information</button>
+            </div>
+        </div>
 
     </main>
 
-    <!-- js file -->
-    <script src="js/cryptography.js"></script>
+
     <!-- bootstrap-js -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
-
+    <!-- js file -->
+    <script src="js/dependentDropdowns.js"></script>
 </body>
 
 </html>
